@@ -1,20 +1,13 @@
 import React, { Component } from 'react';
+import Header from './Header';
+import Nav from './Nav'
 
 class App extends Component {
   render() {
     return (
       <div className="container">
-          <div className="search-form">
-            <input type="text" placeholder="Search" />
-            <button>Search</button>
-          </div>
-          <div className="main-nav">
-            <ul>
-              <li><a href="#top">Cats</a></li>
-              <li><a href="#top">Dogs</a></li>
-              <li><a href="#top">Birds</a></li>
-            </ul>
-          </div>
+          <Header title="Beflast Photographic Gallery" />
+          <Nav but1="Belfast City" but2="Forests" but3="Beaches" />
       </div>
     );
   }
