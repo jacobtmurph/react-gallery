@@ -5,14 +5,14 @@ const Gallery = props => {
     
     const results = props.pics;
     let images = results.map(image =>  
-        <Image src={`https://farm{image.farm}.staticflickr.com/${image.server}/${image.id}_${image.secret}.jpg`} />
+        <Image src={`https://farm${image.farm}.staticflickr.com/${image.server}/${image.id}_${image.secret}.jpg`} alt="" />
     );
 
     return (
-        <h1>Results</h1>
+
         <div className="photo-container">
             <ul>
-                { images }
+                { images.slice(1) }
             </ul>
         </div>
     )
