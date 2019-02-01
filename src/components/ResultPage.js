@@ -27,8 +27,14 @@ class ResultPage extends Component {
 
     //If the component updates, i.e. through NavLinks
     componentDidUpdate () {
-        //Search for the requested tag
-        this.performSearch(`${this.props.match.params.tag}`);
+         //If there is has been a search requested
+         if (this.props.match.params.tag) {
+          //Search for images tagged with the keyword
+          this.performSearch(`${this.props.match.params.tag}`);
+         } else {
+            //Get all images from the Belfast GeoLocation
+            this.performSearch("");
+          }
     }
     //If multiple keywords are searched
     getTags = (...queries) => {
