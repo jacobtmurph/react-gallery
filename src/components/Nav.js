@@ -1,15 +1,17 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 const Nav = (props) => {
     return (
         <div className="main-nav">
+            {/* Link to common search queries */}
             <ul>
-              <li><a href="#top">{ props.but1 }</a></li>
-              <li><a href="#top"> { props.but2 }</a></li>
-              <li><a href="#top">{ props.but3 }</a></li>
+              <li><Link to="/search/city">Belfast City</Link></li>
+              <li><Link to="/search/forest"> Forests </Link></li>
+              <li><Link to="/search/beach">Beaches</Link></li>
             </ul>
           </div>
     )
 };
-
+// Export the Navigation menu
 export default Nav;
