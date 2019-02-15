@@ -3,7 +3,7 @@ An example web-gallery built in React
 
 # Requirements for this project
 
-This project requires a `config.js` file in the `src file`.
+This project requires a `config.js` file in the `src` folder.
 
 in the `config`, there should be a flickr api key provided via the following format:
 
