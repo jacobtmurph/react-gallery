@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import {HashRouter, Route, Switch} from 'react-router-dom';
 import ResultPage from './components/ResultPage';
 import Header from './components/Header';
 import NotFound from './components/404';
@@ -10,7 +10,7 @@ const appKey = apiKey;
 
 const App = () =>  {  
     return (
-      <BrowserRouter>
+      <HashRouter>
         <div className="container">
           {/* If Routes are available, display them with necessary data */}
             <Switch>
@@ -21,7 +21,7 @@ const App = () =>  {
               <Route component={NotFound} />
             </Switch>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     );
 };
 

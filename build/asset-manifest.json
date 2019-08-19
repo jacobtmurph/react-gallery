@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/jacobtmurph/react-gallery/static/css/main.28430a44.chunk.css",
-    "main.js": "/jacobtmurph/react-gallery/static/js/main.7e995b22.chunk.js",
-    "main.js.map": "/jacobtmurph/react-gallery/static/js/main.7e995b22.chunk.js.map",
-    "runtime~main.js": "/jacobtmurph/react-gallery/static/js/runtime~main.78b82e21.js",
-    "runtime~main.js.map": "/jacobtmurph/react-gallery/static/js/runtime~main.78b82e21.js.map",
-    "static/js/2.d0903e25.chunk.js": "/jacobtmurph/react-gallery/static/js/2.d0903e25.chunk.js",
-    "static/js/2.d0903e25.chunk.js.map": "/jacobtmurph/react-gallery/static/js/2.d0903e25.chunk.js.map",
-    "index.html": "/jacobtmurph/react-gallery/index.html",
-    "precache-manifest.25a67584a662918c9dac98061fb07150.js": "/jacobtmurph/react-gallery/precache-manifest.25a67584a662918c9dac98061fb07150.js",
-    "service-worker.js": "/jacobtmurph/react-gallery/service-worker.js",
-    "static/css/main.28430a44.chunk.css.map": "/jacobtmurph/react-gallery/static/css/main.28430a44.chunk.css.map"
+    "main.css": "/react-gallery/static/css/main.28430a44.chunk.css",
+    "main.js": "/react-gallery/static/js/main.c3a5b743.chunk.js",
+    "main.js.map": "/react-gallery/static/js/main.c3a5b743.chunk.js.map",
+    "runtime~main.js": "/react-gallery/static/js/runtime~main.8fccbdb2.js",
+    "runtime~main.js.map": "/react-gallery/static/js/runtime~main.8fccbdb2.js.map",
+    "static/js/2.d0903e25.chunk.js": "/react-gallery/static/js/2.d0903e25.chunk.js",
+    "static/js/2.d0903e25.chunk.js.map": "/react-gallery/static/js/2.d0903e25.chunk.js.map",
+    "index.html": "/react-gallery/index.html",
+    "precache-manifest.288e508198e5fe01090dfc69dd834743.js": "/react-gallery/precache-manifest.288e508198e5fe01090dfc69dd834743.js",
+    "service-worker.js": "/react-gallery/service-worker.js",
+    "static/css/main.28430a44.chunk.css.map": "/react-gallery/static/css/main.28430a44.chunk.css.map"
   }
 }

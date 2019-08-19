@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/jacobtmurph/react-gallery/issues"
   },
-  "homepage": "https://github.com/jacobtmurph/react-gallery#readme",
+  "homepage": "https://jacobtmurph.github.io/react-gallery",
   "dependencies": {
     "gh-pages": "2.1.1",
     "react": "^16.6.3",
