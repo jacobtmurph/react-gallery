@@ -14,9 +14,9 @@ const App = () =>  {
         <div className="container">
           {/* If Routes are available, display them with necessary data */}
             <Switch>
-              <Route exact path="/react-gallery" render={() => <ResultPage flickrKey={appKey}/>} />
-              <Route exact path="/react-gallery/search" render={() => <Header title="React Photo Library: Search"/>} />
-              <Route exact path="/react-gallery/search/:tag" render={() => <ResultPage flickrKey={appKey} />} />
+              <Route exact path="/" render={() => <ResultPage flickrKey={appKey}/>} />
+              <Route exact path="/search" render={() => <Header title="React Photo Library: Search"/>} />
+              <Route exact path="/search/:tag" render={() => <ResultPage flickrKey={appKey} />} />
               {/* Else, display a 404 page */}
               <Route component={NotFound} />
             </Switch>
