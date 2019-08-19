@@ -60,7 +60,7 @@ class ResultPage extends Component {
       //Get the tag string
       let tags = this.getTags(queries);
       //Fetch and pass the images to the flickr state
-      fetch(`https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=${this.props.flickrKey}&tags=Belfast%2C+${tags}&per_page=24&format=json&nojsoncallback=1`).then( response => response.json())
+      fetch(`https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=${this.props.flickrKey}&tags=${tags}&per_page=24&format=json&nojsoncallback=1`).then( response => response.json())
         .then( responseData => this.setState({flickr: responseData.photos.photo, loading: false }) )
         //If an error occurs during the fetch
         .catch(error => {
@@ -73,7 +73,7 @@ class ResultPage extends Component {
       render() {
         return (
             <div>
-            <Header title="Belfast Photographic Library" />
+            <Header title="React Photo Library" />
             {/* If loading */}
             {
               (this.state.loading)
